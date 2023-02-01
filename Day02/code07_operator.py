@@ -64,7 +64,7 @@ que = [1, 2, 3, 4, 5]
 que[0] = 7               # que[n] = m : [n]번째에 m 삽입
 print(que)
 
-#que[5] = 10              # 4까지는 가능
+#que[5] = 10             # 4까지는 가능
 #print(que)
 
 que.append(10)           # .append(n) : 맨 마지막에 값을 추가
