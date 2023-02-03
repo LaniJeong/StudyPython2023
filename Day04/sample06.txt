@@ -1,0 +1,3 @@
+hi 안녕 
+wow second file 
+절대경로에 파일 생성! 
