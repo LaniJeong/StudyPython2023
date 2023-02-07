@@ -46,9 +46,7 @@ class Contact:
 
 ## 5. 사용자 입력
 def set_contact():
-     name, phone_num, email, addr = input('정보입력(이름/전번/이메일/주소)').split('/')
-    
-
+    name, phone_num, email, addr = input('정보입력(이름/전번/이메일/주소)').split('/')
     # print(name, phone_num, email, addr)
     ## 7. Contact 객체 만들기
     contact = Contact(name, phone_num, email, addr)   #(addr = addr, email = email ,,,) 이런식으로도 작성 가능
@@ -62,7 +60,7 @@ def get_contacts(list):
 
 ## 11. 주소록 삭제 / 리스트의 인덱스 추가생성
 def del_contact(list, name):
-    count = 0       ## 11. 찾는 이름 카운트
+    count = 0                         ## 11. 찾는 이름 카운트
     for i, item in enumerate(list):   # 배열에서 enumerate 실행시 값
         if item.isNameExist(name):
             count += 1
@@ -138,13 +136,15 @@ def run():
     while True:
         sel_menu = get_menu()
         if sel_menu == 1:               ## 8. 연락처 추가
-            try:                ## 15-2. 연락처 입력잘못했을 때 예외처리
+            try:                        ## 15-2. 연락처 입력잘못했을 때 예외처리
                 contact = set_contact()
                 contacts.append(contact)
                 input('주소록 입력 성공')  # 아무것도 안받는 입력
             except Exception as e:
                 print('이름/전번/이메일/주소 순으로 똑바로 입력하세요.')
-            clear_console()
+                input()
+            finally:
+                clear_console()
         elif sel_menu == 2:  ## 9. 연락처 출력
             get_contacts(contacts)
             input('주소록 입력 완료')
@@ -161,7 +161,7 @@ def run():
             clear_console()
         
 
-## 1.
+## 1. 메인실행영역
 if __name__ == '__main__':
     # print('주소록앱 시작합니다')
     run()
