@@ -76,4 +76,18 @@ print(f'파이는 {pi:10.3f}입니다.')    # 파이는        3.142입니다.
 ![실행화면](https://raw.githubusercontent.com/LaniJeong/StudyPython2023/main/images/address_app.png)
 실행화면
 
-    
+## 7일차
+1. 파이썬 응용
+    - 주피터 노트북 사용법
+        - 노트북 생성  / 파일 -> 새파일
+        - m : markdown  /  y : python  (esc로 빠져 나온 후 사용)
+        - ctrl + enter : 실행
+        - a : 앞에 셀 만들기  /  b : 뒤에 셀 만들기
+        - debugging(Ctrl + Shift + Alt + Enter) : 위의 셀로 이동하지 않을 경우 py로 내보내기 후 dubugging
+    - 리스트 연산 추가
+    - 자료구조 추가
+    - library 사용법
+    - 윈폼 개발(GUI)
+    - 응용 학습
+
+
