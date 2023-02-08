@@ -100,6 +100,7 @@ print(f'파이는 {pi:10.3f}입니다.')    # 파이는        3.142입니다.
         - BeautifulSoup 크롤링
 
 ![실행화면]
+Folium OpenAPI 연동화면
 
 ## 9일차
 1. 파이썬 응용
