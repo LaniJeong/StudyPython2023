@@ -99,7 +99,7 @@ print(f'파이는 {pi:10.3f}입니다.')    # 파이는        3.142입니다.
         - 데이터 포털 OpenAPI 크롤링
         - BeautifulSoup 크롤링
 
-![실행화면] (file:///C:/source/StudyPython2023/images/jupyter_folium.png)
+![실행화면](file:///C:/source/StudyPython2023/images/jupyter_folium.png)
 Folium OpenAPI 연동화면
 
 ## 9일차
@@ -115,4 +115,7 @@ Folium OpenAPI 연동화면
 1. 파이썬 응용
     - GUI 개발
         - PyQt 위젯 계속
+        - PyQt 다이얼로그
+
+![실행화면]()
         
